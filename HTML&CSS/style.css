@@ -1,0 +1,532 @@
+/*Style dari Challenge 1*/
+#Challenge1{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40%;
+    margin-bottom: 300px;}
+.item{
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    color: red;
+    border-radius: 05px;
+    width: 40%;
+    height: 290px;
+    width: 300px;
+    box-shadow: 2px 2px 2px 2px rgb(128, 123, 123);}
+#Challenge1 .item .item1-img{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    text-align: center;}
+#Challenge1 .item .item1-img img{
+    height: 100%;
+    width: 120%;}
+#Challenge1 .item .item1-title h5{
+    margin-top: 5px;
+    margin-left: 15px;
+    color: black;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+#Challenge1 .item .item1-title h6{
+    margin-top: -32px;
+    margin-left: 15px;
+    color: rgb(155, 150, 144);
+    font-family: 'adobe fangsong std';
+    font-size: 13px;}
+#Challenge1 .item .item1-desk p{
+    margin-top: -32px;
+    margin-left: 15px;
+    font-size: 13px;
+    font-family: 'arial';
+    color: black}
+#Challenge1 .item .link{
+    margin-left: 15px;
+    margin-top: -7px;
+    font-size: 15px;}
+#Challenge1 .item .link a{
+    margin-right: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+    font-family: 'calibri';}
+/* Sub Style dari item 1*/
+    .item1{
+        background-color: rgb(255, 255, 255);
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+        color: red;
+        border-radius: 05px;
+        width: 40%;
+        height: 240px;
+        width: 300px;
+        box-shadow: 2px 2px 2px 2px rgb(177, 169, 169);}
+    #Challenge1 .item1 .item1-img{
+        width: 100%;
+        height: 150px;
+        overflow: hidden;
+        text-align: center;}
+    #Challenge1 .item1 .item1-img img{
+        height: 100%;
+        width: 120%;}
+    #Challenge1 .item1 .item1-title h5{
+        margin-top: 5px;
+        margin-left: 15px;
+        color: black;
+        font-size: 17px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    #Challenge1 .item1 .item1-title h6{
+        margin-top: -32px;
+        margin-left: 15px;
+        color: rgb(155, 150, 144);
+        font-family: 'adobe fangsong std';
+        font-size: 13px;}
+    #Challenge1 .item1 .link{
+        margin-left: 15px;
+        margin-top: -30px;
+        font-size: 15px;}
+    #Challenge1 .item1 .link a{
+        margin-right: 3px;
+        text-decoration: none;
+        font-weight: bold;
+        color: blue;
+        font-family: 'calibri';}
+/* Sub Style dari item 2*/
+    .item2{
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    color: red;
+    border-radius: 05px;
+    width: 40%;
+    height: 310px;
+    width: 300px;
+    box-shadow: 2px 2px 2px 2px rgb(177, 169, 169);}
+    #Challenge1 .item2 .akun {
+        display: flex;
+        flex-direction: raw;}
+    #Challenge1 .item2 .akun .akun-user{
+        display: flex;
+        flex-direction: column; }
+    #Challenge1 .item2 .akun .akun-user h3{
+        font-size: 13px;
+        color: black;
+        margin-top: 10px;
+        margin-left: 10px}
+    #Challenge1 .item2 .akun .akun-user p{
+        font-size: 12px;
+        color: rgb(29, 28, 28);
+        margin-left: 10px;
+        margin-top: -12px;}     
+    #Challenge1 .item2 .akun .akun-foto img{
+        border-radius: 50%;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        width: 30px;
+        height: 30px;}
+    #Challenge1 .item2 .item1-img{
+        width: 100%;
+        height: 150px;
+        overflow: hidden;
+        text-align: center;
+        margin-top: -7px;}
+    #Challenge1 .item2 .item1-img img{
+        height: 100%;
+        width: 120%;}
+    #Challenge1 .item2 .item1-title h5{
+        margin-top: 5px;
+        margin-left: 15px;
+        color: black;
+        font-size: 17px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    #Challenge1 .item2 .item1-title h6{
+        margin-top: -32px;
+        margin-left: 15px;
+        color: rgb(155, 150, 144);
+        font-family: 'adobe fangsong std';
+        font-size: 13px;}
+    #Challenge1 .item2 .item1-desk p{
+        margin-top: -32px;
+        margin-left: 15px;
+        font-size: 13px;
+        font-family: 'arial';
+        color: black}
+/* Sub Style dari item 3*/
+    .item3{
+    background-color: rgb(177, 169, 169);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    color: red;
+    border-radius: 05px;
+    width: 40%;
+    height: 180px;
+    width: 300px;
+    box-shadow: 2px 2px 2px 2px rgb(177, 169, 169);}
+    #Challenge1 .item3 .item1-img{
+        width: 100%;
+        height: 150px;
+        overflow: hidden;
+        text-align: center;}
+    #Challenge1 .item3 .item1-img img{
+        height: 100%;
+        width: 120%;}
+    #Challenge1 .item3 .item1-bottom{
+        background-color: rgb(255, 255, 255);
+        height: 26px;
+        text-align: right;
+        padding-right: 10px;}
+    #Challenge1 .item3 .item1-bottom img{
+        margin-top: 3px;
+        height: 17px;
+        width: auto;}
+    /*Style dari Challenge 2*/
+#Challenge2{   
+    background-color: rgb(70, 98, 122);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+    justify-content: center;
+    color: rgb(232, 232, 232);}
+#Challenge2 .Challenge2-header{
+    background-color: rgb(70, 98, 122);
+    width: 100%;
+    text-align: center;
+    font-family:  'Corbel';}
+#Challenge2 .Challenge2-header p{
+    margin-top: -10px;
+    width: 100%;
+    font-size: small;
+    text-align: center;
+    margin-bottom: 100px;}
+        /*--Style dari bg*/
+#Challenge2 .bg-Challenge2{
+    margin-top: 0px;
+    background-color: rgb(226, 221, 221);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;}
+#Challenge2 .bg-Challenge2 .card{
+    margin-top: -70px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(58, 61, 61);
+    justify-content: center;
+    text-align: center;
+    height: 210px;
+    width: 170px;
+    margin-left: 30px;
+    overflow: visible;}
+#Challenge2 .bg-Challenge2 .card .card-header{
+    background-color: rgb(49, 48, 51);
+    color: white;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    text-align: left;
+    font-weight: bold;}
+#Challenge2 .bg-Challenge2 .card .card-harga{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(245, 241, 241);
+    justify-content: center;
+    width: 100%;
+    color: black;}
+#Challenge2 .bg-Challenge2 .card .card-harga .price{
+    font-size: 40px;}
+#Challenge2 .bg-Challenge2 .card .card-harga .masa{
+    padding-top: 22px;;}    
+#Challenge2 .bg-Challenge2 .card .paket ul li{
+    list-style-type: none;
+    margin-left: -20px;
+    margin-right: 20px;
+    text-align: left;}
+#Challenge2 .bg-Challenge2 .card button{
+        margin-bottom: 10px;
+        background-color: blue;
+        color: white;
+        border-radius: 5px;
+        width: 85px;
+        height: 30px;
+        font-weight: bold;
+        border: none;}
+.card.besar{
+    transform: scale(1.11);}
+        /*--Style dari Ask*/    
+#Challenge2 .ask-Challenge2{
+    padding-top: 60px;
+    text-align: center;
+    color:  rgb(70, 98, 122);
+    background-color:rgb(226, 221, 221);
+    padding-bottom: 40px;
+    margin-bottom: 40px;}
+#Challenge2 .ask-Challenge2 .ask{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;}
+#Challenge2 .ask-Challenge2 .ask .ask1{
+    width: 30%;
+    height: 100%;
+    text-align:left;
+    padding-left: 60px;
+    color: black;
+    font-size: large;}
+#Challenge2 .ask-Challenge2 .ask .ask1 p{
+        text-align: left;
+        font-size: 14px;}
+    /*Style dari Challenge 3*/
+#Challenge3{   
+    margin-top: 0px;
+    padding-top: 130px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 1100;
+    justify-content: center;
+    color: rgb(232, 232, 232);}
+#Challenge3 .post{
+    padding-top: 20px;
+    display: flex;
+    flex-direction:column;
+    height: 1050px;
+    width: 90%;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px   rgb(71, 80, 80);
+    border-radius: 5px;
+    overflow: hidden;}
+#Challenge3 .post .akun{
+    display: flex;
+    background-color: transparent;
+    flex-direction: row;}
+#Challenge3 .post .akun .akun-foto img{
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    margin-top: 10px;
+    margin-left: 25px;}
+#Challenge3 .post .akun .akun-user{
+    margin-top: 12px;
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;}
+
+#Challenge3 .post .akun .akun-user .akun-user-id{
+    display: flex;
+    flex-direction: row;
+    font-family: 'calibri';}
+#Challenge3 .post .akun .akun-user .akun-user-id h4{
+    margin-top: 0px;
+    color: rgb(67, 67, 223);
+    font-size: 21px;
+    font-weight: bold;}
+#Challenge3 .post .akun .akun-user .akun-user-id p{
+    margin-top: 0px;
+    margin-left: 5px;
+    color: rgb(66, 66, 68);
+    font-size: 20px;}
+#Challenge3 .post .akun .akun-user .akun-user-onl{
+    margin-top: 0px;
+    color: rgb(130, 130, 134);
+    font-size: 20;}
+#Challenge3 .post .akun .akun-user .akun-user-onl p{
+    margin-top: -23px;}
+#Challenge3 .post .akun .akun-ant {
+    display: flex;
+    rotate: 90;
+    flex-direction: row-reverse;
+    margin-top: 0px;
+    color: rgb(130, 130, 134);
+    margin-top: 0px;
+    background-color: transparent;
+    width: 680px;}
+#Challenge3 .post .akun .akun-ant .tombol{
+    background-color: transparent;
+    padding-top: 25px;
+    height: 50px;
+    width: 500px;
+    overflow: inherit;
+    text-align: right;}
+#Challenge3 .post .akun .akun-ant .tombol img{
+    height: 40px;
+    width: 20px;}
+/*Style dari status*/
+#Challenge3 .post .status{
+    background-color: transparent;}
+#Challenge3 .post .status .status-caption p{
+    font-size: 21px;
+    font-family: 'calibri';
+    margin-left: 25px;
+    color: rgb(54, 52, 52);}
+#Challenge3 .post .status .status-foto{
+    display: block;
+    margin-left: 25px;
+    width: 94%;
+    height: 500px;
+    align-content: center;}
+#Challenge3 .post .status .status-foto img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;}
+#Challenge3 .post .status .status-respon{
+    background-color: transparent;
+    height: 80px;
+    width: 100%;
+    padding-left: 25px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;}
+#Challenge3 .post .status .status-respon .btn{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 30px;
+    flex-direction: row;
+    background-color: transparent;
+    height: 40px;
+    width: 100px;
+    font-family: 'calibri';
+}
+#Challenge3 .post .status .status-respon .btn img{
+    height: 35px;
+    width: 35px;}
+#Challenge3 .post .status .status-respon .btn h6{
+    font-size: 21px;
+    margin-left: 5px;
+    margin-top: 2px;
+    text-decoration: none;
+    color: rgb(56, 55, 55);}
+#Challenge3 .post .status .status-respon .btn p{
+    font-size: 21px;
+    margin-left: 5px;
+    margin-top: 2px;
+    color: rgb(56, 55, 55)}
+/*Style untuk Komentar--*/
+#Challenge3 .post .komentar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 240, 240);
+    height: 1000px;}
+#Challenge3 .post .komentar .komentar--{
+    padding-left: 25px;
+    padding-top: 2px;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    font-family: 'calibri';
+    height: 50px;}
+#Challenge3 .post .komentar .komentar-- h1{
+    margin-top: 0px;
+    font-size: 9mm;
+    font-weight: none;
+    color: rgb(44, 43, 43);}
+#Challenge3 .post .komentar .komentar-- p{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 15px;
+    font-size: 6mm;
+    font-weight: none;
+    color: rgb(44, 43, 43);}
+#Challenge3 .post .komentar .komentar-- h6{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-family: 'arial';
+    font-size: 3mm;
+    font-weight: none;
+    font-weight: bold;
+    color: rgb(44, 43, 43);}
+/*Style untuk Komentar Akun komen*/
+#Challenge3 .post .komentar .komentar-akun{
+        padding-left: 25px;
+        color:rgb(95, 87, 87);}
+#Challenge3 .post .komentar .komentar-akun{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;}
+#Challenge3 .post .komentar .komentar-akun .komentar-akun-foto img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;}
+#Challenge3 .post .komentar .komentar-akun .komen{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    width: 100%;}
+#Challenge3 .post .komentar .komentar-akun .komen .komen-akun-komen .komen-akun{
+    background-color: transparent;
+    font-family: 'calibri';
+    display: flex;
+    padding-left: 20px;
+    flex-direction: row;}
+#Challenge3 .post .komentar .komentar-akun .komen .komen-akun-komen .komen-akun .komen-akun-user h1{
+    font-size: 20px;
+    margin-top: 0px;
+    color: black;}
+#Challenge3 .post .komentar .komentar-akun .komen .komen-akun-komen .komen-akun .komen-akun-tgl p{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 2px;}
+#Challenge3 .post .komentar .komentar-akun .komen .komentar-isi{
+    padding-left:  20px;}
+#Challenge3 .post .komentar .komentar-akun .komen .komentar-isi .textarea{
+    font-family: 'calibri';
+    margin-top: -15px;
+    height: 50px;
+    width: 700px;
+    background-color: transparent;
+    margin-bottom: 5px;}
+/*Style untuk Komentar Feed*/
+#Challenge3 .post .komentar .komentar-akun .komen .komentar-feed{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;}
+#Challenge3 .post .komentar .komentar-akun .komen .komentar-feed .feed{
+    margin-right: 10px;}
+#Challenge3 .post .komentar .komentar-akun .komen .komentar-feed .feed a{
+    text-decoration: none;
+    font-weight: bold;}
+#Challenge3 .post .komentar .komentar-akun .komen .komentar-feed .feed img{
+    height: 20px;
+    width: 20px;;}
+/*Style untuk Komentar Baru*/
+#Challenge3 .post .komentar .komentar-baru{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-top: 10px;}
+#Challenge3 .post .komentar .komentar-baru .akun img{
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;}
+#Challenge3 .post .komentar .komentar-baru .isi-komen {
+    font-family: 'calibri';
+    margin-left: 10px;}
+#Challenge3 .post .komentar .komentar-baru .isi-komen textarea{
+    height: 50px;
+    width: 700px;
+    color: rgb(119, 119, 118);
+    margin-bottom: 15px;}
+#Challenge3 .post .komentar .komentar-baru .isi-komen button{
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: rgb(73, 142, 232);
+    color: white;
+    font-weight: bold;
+    border:none;
+}
